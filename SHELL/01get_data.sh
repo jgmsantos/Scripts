@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Guilherme Martins
+
 # Dica obtida do link: https://www.monolitonimbus.com.br/scripts-com-wget/
 
 # Script que realiza o download dos dados de umidade do solo do GRACE/NASA.
