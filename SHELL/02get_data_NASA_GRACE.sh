@@ -22,6 +22,12 @@ data_final="20200131"
 
 base_url="https://nasagrace.unl.edu/globaldata"
 
+# Caso os diretórios acima (tif, netcdf e tmp) não existam, o script os criará.
+if [ ! -e ${DIR_INPUT_TIF} -a ! -e ${DIR_INPUT_NETCDF} -a ! -e ${DIR_TMP} ]
+then
+    mkdir -p ${DIR_INPUT_TIF} ${DIR_INPUT_NETCDF} ${DIR_TMP}  # Cria os 3 diretórios.
+fi
+
 while [ ${data_inicial} -le ${data_final} ]; do
 
 	DIA=${data_inicial:6:2}
