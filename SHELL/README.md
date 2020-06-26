@@ -7,3 +7,7 @@
 03limpa_cmip5.sh: Adiciona os dias 31 ao meses que possuem esse número de dias e remove datas duplicadas do modelo HADGEM2-ES para os cenários historical, rcp26 e rcp85.
 
 04_limpa_IMERG.sh: Utiliza o parallel para juntar os arquivos diários do IMERG/NASA para depois fazer o recorte dos dados sobre o Brasil.
+
+05ajunta.sh: Junta os arquivos diários em meses e recorta sobre o domínio do Brasil. Esses dados serão utilizados pelo script "05bjunta.sh".
+
+05bjunta.sh: Realiza o cálculo do índice eca_dd.
