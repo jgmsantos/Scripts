@@ -10,4 +10,4 @@
 
 05ajunta.sh: Junta os arquivos diários em meses e recorta sobre o domínio do Brasil. Esses dados serão utilizados pelo script "05bjunta.sh".
 
-05bjunta.sh: Realiza o cálculo do índice eca_dd.
+05bjunta.sh: Realiza o cálculo do índice eca_dd, extrai a série temporal e salva no formato texto.
