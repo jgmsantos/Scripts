@@ -6,4 +6,4 @@ Guilherme Martins:
 
 E-mail: jgmsantos@gmail.com
 
-Site pessoal: [guilherme.readthedocs.io](guilherme.readthedocs.io)
+Site pessoal: [https://guilherme.readthedocs.io/en/latest/](https://guilherme.readthedocs.io/en/latest/)
