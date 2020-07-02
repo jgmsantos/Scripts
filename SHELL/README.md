@@ -1,3 +1,7 @@
+# Scripts
+
+01lat_lon.txt: Arquivo texto a ser utilizado com o script 01loop.sh.
+
 01loop.sh: Uso do loop read while para ler um arquivo texto.
 
 02get_data_NASA_GRACE.sh: Realiza o download dos dados de umidade do solo do GRACCE/NASA, conserta a data e gera o NetCDF.
