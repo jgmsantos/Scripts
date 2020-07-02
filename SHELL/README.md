@@ -1,4 +1,4 @@
-# Scripts
+# Shell
 
 01lat_lon.txt: Arquivo texto a ser utilizado com o script 01loop.sh.
 
