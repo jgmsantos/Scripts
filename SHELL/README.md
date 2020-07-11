@@ -15,3 +15,7 @@
 **05bindice_climatico.sh**: Realiza o cálculo do índice eca_dd, extrai a série temporal e salva no formato texto para várias áreas.
 
 **05cindice_climatico.sh**: Realiza o cálculo do índice eca_dd, extrai a série temporal e salva no formato texto para apenas uma área.
+
+**06a_eca.sh**: Junta os arquivos do IMERG/NASA e recorta sobre o Brasil. Tudo é feito utilizando o parallel.
+
+**06b_eca.sh**: Realiza o cálculo do índice eca_dd, extrai a série temporal e salva no formato texto para vários biomas.
