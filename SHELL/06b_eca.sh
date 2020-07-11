@@ -13,7 +13,7 @@ datainicial=`date +%s`
 # Criar os diretórios: figuras, input, processado, script, shapefile e tmp.
 # Colocar esse script dentro do diretório "script"
 # Os arquivos NetCDF dos biomas estão em: https://github.com/jgmsantos/Scripts/tree/master/NetCDF/biomas
-# Tempo gasto: 00:03:52
+# Tempo gasto: 00:03:35
 
 DIR_INPUT="../input"
 DIR_TMP="../tmp"
@@ -27,7 +27,10 @@ ANOF="2020"
 
 for ano in $(seq ${ANOI} ${ANOF})
 do
-    for mes in 01 02 03 04 05 06 07 08 09 10 11 12
+    if [ ${ano} = ${ANOF} ]  ; then mesc="01 02 03 04 05 06 07" ; fi
+	if [ ${ano} != ${ANOF} ] ; then mesc="01 02 03 04 05 06 07 08 09 10 11 12" ; fi
+	
+    for mes in ${mesc}
     do
 	    echo ${ano}${mes}
 		# Calcula o índice eca_cdd.
@@ -51,7 +54,7 @@ do
     done
 done
 
-rm -f ${DIR_TMP}/*.eca_cdd.?.txt # Remove porque é feito append nos arquivos.
+rm -f ${DIR_OUTPUT}/*.eca_cdd.?.txt # Remove porque é feito append nos arquivos.
 
 for bioma in amazonia caatinga cerrado mata_atlantica pampa pantanal
 do
@@ -63,7 +66,7 @@ do
 	done
 done
 
-rm -f ${DIR_TMP}/*.nc ${DIR_TMP}/*.txt
+#rm -f ${DIR_TMP}/*.nc ${DIR_TMP}/*.txt
 
 #####################################
 datafinal=`date +%s`
