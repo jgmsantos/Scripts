@@ -9,3 +9,11 @@
 **03fig.focos.espacial.ncl**: Gera figura utilizando arquivo de focos.
 
 **04fig.mapa.veg.ncl**: Gera figura utilizando arquivo de mapa de vegetação.
+
+**05temperatura.**: Scrit e figura de temperatura.
+
+**06umidade_relativa.**: Scrit e figura de umidade relativa.
+
+**07velocidade_vento.**: Scrit e figura de velocidade do vento.
+
+**08num_dias_sem_chuva.**: Scrit e figura de número de dias sem chuva.
