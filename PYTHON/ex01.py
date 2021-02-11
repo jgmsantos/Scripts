@@ -43,7 +43,7 @@ define_label(ax, ax.containers[1].patches, ano2020)
 plt.ylim(0, 100)  # Define o mínimo e máximo valor do eixo y.
 plt.ylabel('Porcentagem (%)', fontsize=10)  # Tamanho do título do eixo y.
 plt.yticks(fontsize=10)  # Tamanho dos rótulos do eixo y.
-#plt.tick_params(axis='y', which='both', left=False, right=False, labelleft=False)  # Desabilita os rótulos de ambos os eixos esquerdo e direito.
+plt.tick_params(axis='y', right=True)  # Habilita o tickmark do eixo direito.
 
 #  Formatação do eixo x:
 plt.xticks(np.arange(total_classes),classes, fontsize=10)  # Rótulos do eixo x e tamanho.
@@ -56,7 +56,7 @@ plt.title('Bioma Pantanal')
 plt.legend(frameon =False)  # Desliga a borda da legenda.
 
 #  Salva a figura:
-plt.savefig('ex01.jpg', transparent=True, dpi=300, bbox_inches='tight', pad_inches=0)  # Salva a figura no formato ".png" com dpi=300 e remove espaços excedentes.
+plt.savefig('ex01.jpg', transparent=True, dpi=300, bbox_inches='tight', pad_inches=0)  # Salva a figura no formato ".jpg" com dpi=300 e remove espaços excedentes.
 
 #  Mostra o gráfico na tela:
 #plt.show()

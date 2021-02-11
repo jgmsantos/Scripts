@@ -51,7 +51,7 @@ plt.xticks(np.arange(total_classes),classes, fontsize=10)  # Rótulos do eixo x 
 plt.legend(frameon =False)  # Desliga a borda da legenda.
 
 #  Salva a figura:
-plt.savefig('ex02.jpg', transparent=True, dpi=300, bbox_inches='tight', pad_inches=0)  # Salva a figura no formato ".png" com dpi=300 e remove espaços excedentes.
+plt.savefig('ex02.jpg', transparent=True, dpi=300, bbox_inches='tight', pad_inches=0)  # Salva a figura no formato ".jpg" com dpi=300 e remove espaços excedentes.
 
 #  Mostra o gráfico na tela:
 #plt.show()
