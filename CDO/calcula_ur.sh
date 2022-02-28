@@ -2,9 +2,6 @@
 
 # Script que calcula a Umidade Relativa (%) a partir da Temperatura (T) e Temperatura do Ponto de Orvalho (Td).
 # Guilherme Martins - jgmsantos@gmail.com. 28/02/2022.
-# T e Td tem que estar em graus "Celsius". 
-# Para converter de Kelvin para Celsius:
-# Tc = Tk - 273.15 que é utilizado na equação abaixo.
 # Os arquivos possuem o nome: ERA5.d2m.YYYY.nc e ERA5.t2m.YYYY.nc, onde YYYY representa o ano com 4 digítos.
 
 # Referência: https://drive.google.com/file/d/15UT8bdlLlwxwazTvRk2IK28oys89Z4nl/view
