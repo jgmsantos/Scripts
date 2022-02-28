@@ -2,7 +2,7 @@
 
 # Script que calcula a Umidade Relativa (%) a partir da Temperatura (T) e Temperatura do Ponto de Orvalho (Td).
 # Guilherme Martins - jgmsantos@gmail.com. 28/02/2022.
-# Os arquivos possuem o nome: ERA5.d2m.YYYY.nc e ERA5.t2m.YYYY.nc, onde YYYY representa o ano com 4 digítos.
+# Os arquivos possuem o nome: ERA5.d2m.YYYY.nc e ERA5.t2m.YYYY.nc, onde YYYY representa o ano com 4 dígitos.
 
 # Referência: https://drive.google.com/file/d/15UT8bdlLlwxwazTvRk2IK28oys89Z4nl/view
 # Página: 78, item: 7.18 Calculando a Umidade Relativa.
