@@ -19,7 +19,7 @@ datainicial=`date +%s`
 # 1) chmod +x extrai.sh  => Torna o programa executável.
 # 2) ./extrai.sh         => Executa o script.
 
-input_latlon="lat_lon.txt" # Nome do arquivo de latitude e longitude. Esse arquivo (lat_lon.txt) TEM que ter apenas duas colunas e tem que ficar no diretório script.
+input_latlon="lat_lon_extrai.txt" # Nome do arquivo de latitude e longitude. Esse arquivo (lat_lon.txt) TEM que ter apenas duas colunas e tem que ficar no diretório script.
                            # A PRIMEIRA coluna é a LONGITUDE e a 
 				   # SEGUNDA coluna é a LATITUDE.
 
