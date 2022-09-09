@@ -31,6 +31,9 @@ cdo -s -lt $prec_file precip_25pctl.nc out_precip.nc
 cdo -s mul out_tsurf.nc out_precip.nc masked_gtT75_ltP25.nc
 
 # Multiplica a grade de tmax.nc pela grade da máscade de masked_gtT75_ltP25.nc.
+# Quando o valor for maior que zero (gtc,0), recebe 1, caso contrário, recebe 0.
+# E depois soma todos os tempos (timsum) e arredonda o valor caso tenha valor decimal
+# porque o número de dias é um valor inteiro, e não decimal.
 cdo -s -nint -timsum -gtc,0 -mul  $tmax_file masked_gtT75_ltP25.nc outfile_tsurf.nc
 cdo -s -nint -timsum -gtc,0 -mul $prec_file masked_gtT75_ltP25.nc outfile_precip.nc
 
