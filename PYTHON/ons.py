@@ -8,6 +8,9 @@
 # Homepage: https://guilherme.readthedocs.io/en/latest/
 # GitHub: https://github.com/jgmsantos
 
+# Para executar:
+# python ons.py
+
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service # Executa o ChromeDriverManager.
