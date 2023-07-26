@@ -4,9 +4,9 @@ import numpy as np
 
 
 # Script que lê um arquivo no formato '.csv' que possui a seguinte estrutura:
-# Estacao,nome_arquivo,EDMs,cod.ANA,latitude,longitude,datafinal,datainicia,dias_com_d
-# 1,3RS0001,ETP00001.EDM,3253003,-32.9539,-53.1189,1980,2014,12166
-# 2,3RS0002,ETP00002.EDM,3252025,-32.9444,-52.7733,2000,2014,4900
+# nome_arquivo,latitude,longitude
+# 3RS0001-32.9539,-53.1189
+# 3RS0002-32.9444,-52.7733
 
 # A partir dos valores de latitude e de longiute, extrais os valores de precipitação
 # de um arquivo NetCDF e salva o resultado em um arquivo '.csv' cujo nome é de acordo com a coluna
