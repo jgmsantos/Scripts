@@ -25,7 +25,7 @@ import numpy as np
 # Faz uma checagem para saber se o arquivo existe. Caso negativo, 
 # para a execução do script.
 try:
-    df = pd.read_csv('./input/estacoes_ZARC_ANA.csv')
+    df = pd.read_csv('./input/arquivo_lat_lon.csv')
 except:
     print('--' * 30)
     print('O arquivo .csv não existe. Saindo do script.')
