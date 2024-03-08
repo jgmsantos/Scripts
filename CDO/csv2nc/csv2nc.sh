@@ -1,8 +1,3 @@
-Na dica de hoje, utiliza-se um arquivo no formato csv com 3 colunas: longitude, latitude, chuva. Foi um script para gerar este arquivo NetCDF que está disponível em:
-
-https://github.com/jgmsantos/Scripts/tree/master/CDO
-
-
 #!/bin/bash
 
 # Para pegar apenas a coluna com os valores de chuva.
